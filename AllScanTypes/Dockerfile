@@ -1,4 +1,4 @@
-FROM tomcat
+FROM postgres:9.6.23-bullseye
 
 COPY . .
 
